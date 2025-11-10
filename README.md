@@ -4,7 +4,6 @@ En este proyecto recrearemos desde 0 la funcion printf.
 ### Indice
 * [Que es ft_printf?](#que-es-ft_printf)
 * [Que utilizamos?](#que-utilizamos)
-* [Como funciona?](#como-funciona)
 * [Como utilizamos la libreria?](#como-utilizamos-la-libreria)
 
 ### Que es ft_printf?
@@ -35,11 +34,6 @@ En nuestro ft_printf tenemos solo las siguentes funciones de librerias externas 
 | va_arg | Accede al siguiente argumento de la función variada.               											|
 | va_copy | Hace una copia de los argumentos de la función variádica.               									|
 | va_end | Finaliza el recorrido de los argumentos de la función variada.        |
-
-
-### Como funciona?
-
-La meta es crear una libreria que contenga todo nuestro codigo para poder utilizarlo en futuros proyectos llamado: *libftprintf.a*
 
 ### Como utilizamos la libreria?
 
