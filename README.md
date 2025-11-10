@@ -1,4 +1,4 @@
-# ft_printf - gmacias-
+# ft_printf
 En este proyecto recrearemos desde 0 la funcion printf.
 
 ### Indice
@@ -41,14 +41,6 @@ En nuestro ft_printf tenemos solo las siguentes funciones de librerias externas 
 
 La meta es crear una libreria que contenga todo nuestro codigo para poder utilizarlo en futuros proyectos llamado: *libftprintf.a*
 
-Para crear esta libreria seguimos los siguientes pasos:
-
-	git clone https://github.com/gjmacias/ft_printf
-	cd ft_printf
-	make
-
-Al revisar el directorio, en alguna parte encontraras la libreria: *libftprintf.a*
-
 ### Como utilizamos la libreria?
 
 Para utilizarlo primero debes de  tener la libreria: *libftprintf.a*.
@@ -58,22 +50,3 @@ Luego debes añadirlo en el compilador, primero la ruta de libftprintf.a y luego
 
 -L tomara la ubicacion de la libreria<br>
 -l tomara el nombre de la libreria. en este caso seran los caracteres que vegan despues de `lib` de tu libreria.
-
-y eso seria todo!
-
-# Quizás pueda interesarte!
-
-### - Para ver mi progresion en 42 🌠
-[AQUÍ](https://github.com/gjmacias/42BCN)
-
-### - Mi perfil de 42 👾
-[AQUÍ](https://profile.intra.42.fr/users/gmacias-)
-
-### - Mis proyectos personales 🧐
-[AQUÍ🗒️](https://github.com/gjmacias/autoproyectos)
-
-# Contacto 📥
-
-◦ Email: gmacias-@student.42barcelona.com
-
-[1]: https://www.42barcelona.com/ "42 BCN"
