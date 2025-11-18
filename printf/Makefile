@@ -28,10 +28,10 @@ CFLAGS = -Wall -Werror -Wextra
 RM = rm -rf
 AR = ar crs
 
+all: $(NAME)
+
 $(NAME): $(OBJS)
 	$(AR) $(NAME) $(OBJS)
-
-all: $(NAME)
 
 clean:
 	$(RM) $(OBJS)
