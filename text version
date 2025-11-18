@@ -199,3 +199,17 @@ char	*ft_aux_pf(unsigned long long n, char *base)
 
 
 [ ft_putchar_pf.c ]
+
+#include "ft_printf.h"
+
+void	ft_putchar_pf(char c, size_t *counter)
+{
+	write(1, &c, 1);
+	(*counter)++;
+}
+
+
+-----------------------------------------
+
+
+[ ft_puthex_pf.c ]
