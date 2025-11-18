@@ -34,6 +34,9 @@ re:	fclean all
 .PHONY:	all clean fclean re
 
 
+-----------------------------------------
+
+
 [ ft_printf.h ]
 
 #ifndef FT_PRINTF_H
@@ -59,3 +62,11 @@ void	ft_putptr_pf(void *ptr, size_t *counter);
 char	*ft_aux_pf(unsigned long long n, char *base);
 
 #endif
+
+
+-----------------------------------------
+
+
+[ ft_printf.c ]
+
+...
