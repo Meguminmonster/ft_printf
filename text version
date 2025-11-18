@@ -213,3 +213,20 @@ void	ft_putchar_pf(char c, size_t *counter)
 
 
 [ ft_puthex_pf.c ]
+
+#include "ft_printf.h"
+
+void	ft_puthex_pf(unsigned int num, size_t *counter, char *base)
+{
+	char	*str;
+
+	str = ft_aux_pf(num, base);
+	ft_putstr_pf(str, counter);
+	free(str);
+}
+
+
+-----------------------------------------
+
+
+[ ft_putnbr_pf.c ]
