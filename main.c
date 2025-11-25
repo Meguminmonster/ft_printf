@@ -7,3 +7,5 @@ int  main()
   printf("hola %sabc%dabc%X\n", "mundo", 123, 15);
   return (0);
 }
+
+// cc ft_*.c ft_printf.h main.c
