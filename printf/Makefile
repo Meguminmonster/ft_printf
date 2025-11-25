@@ -28,9 +28,12 @@ CFLAGS = -Wall -Werror -Wextra
 RM = rm -rf
 AR = ar crs
 
+%.o : %.c printf.h
+	$(CC) $(CFLAGS) -c -o $@ $<
+
 all: $(NAME)
 
-$(NAME): $(OBJS)
+$(NAME): $(OBJS) Makefile
 	$(AR) $(NAME) $(OBJS)
 
 clean:
