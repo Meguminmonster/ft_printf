@@ -28,7 +28,7 @@ CFLAGS = -Wall -Werror -Wextra
 RM = rm -rf
 AR = ar crs
 
-%.o : %.c printf.h
+%.o : %.c ft_printf.h
 	$(CC) $(CFLAGS) -c -o $@ $<
 
 all: $(NAME)
